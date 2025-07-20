@@ -1,0 +1,29 @@
+.bookings-container {
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.bookings-container h2 {
+  margin-bottom: 20px;
+}
+
+.bookings-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bookings-table th,
+.bookings-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.bookings-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.bookings-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

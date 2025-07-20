@@ -1,0 +1,57 @@
+.book-flight-wrapper {
+  background-image: url('../assets/flight-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.book-flight-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.book-flight-overlay h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.book-flight-overlay p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.book-flight-overlay input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.book-flight-overlay button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book-flight-overlay button:hover {
+  background-color: #0056b3;
+}

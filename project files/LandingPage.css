@@ -1,0 +1,84 @@
+/* ---------- Hero ---------- */
+.landing-wrapper .hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero-sub {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.cta-btn {
+  padding: 14px 32px;
+  font-size: 18px;
+  background: #ff8800;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+
+.cta-btn:hover {
+  background: #e06f00;
+}
+
+/* ---------- Features ---------- */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 20px;
+  background: #f9fafc;
+}
+
+.feature {
+  max-width: 260px;
+  text-align: center;
+}
+
+.feature i {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 12px;
+}
+
+.feature h3 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #333;
+}
+
+.feature p {
+  color: #555;
+  font-size: 15px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .hero-title { font-size: 32px; }
+  .cta-btn     { font-size: 16px; padding: 12px 26px; }
+}

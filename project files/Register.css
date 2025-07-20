@@ -1,0 +1,16 @@
+/* Register Page Styling */
+form {
+  background-color: #fdfdfd;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input, button {
+  font-size: 1rem;
+}
